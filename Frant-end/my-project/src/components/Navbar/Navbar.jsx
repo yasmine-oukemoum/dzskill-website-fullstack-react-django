@@ -17,7 +17,7 @@ const Navbar = () => {
 
   // Event handler or callback functions
   const toggleDropdown = () => {
-    setDropdownOpen(!dropdownOpen);
+    setDropdownOpen(!dropdownOpen) ;
   };
 
   const changeLanguage = (lang) => {
